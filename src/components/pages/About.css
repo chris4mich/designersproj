@@ -1,0 +1,44 @@
+.about {
+    padding: 4rem;
+    background: #fff;
+    align-items: center;
+  }
+
+.about__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+     }
+
+p {
+    float: right; 
+    font-size: 18px;
+    margin-bottom: 24px;
+   }
+
+.cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+
+ 
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
