@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.scss';
+import '../../App.css';
 import HeroSection from '../HeroSection';
 
 function Home() {
